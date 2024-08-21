@@ -13,8 +13,14 @@ const HeroSection = () => {
       backgroundColor: theme.palette.primary.main,
       height: "100vh",
       display: "flex",
-      alignItems: "center"
-      
+      alignItems: "center",
+      [theme.breakpoints.up('xs')]: { // <= mobile
+        paddingTop: "100px",
+
+    },
+    [theme.breakpoints.up('md')]: { // >=mobile
+        paddingTop: "0",
+    }
     }))
     const StyledImg = styled("img")(() => ({
       width: "80%",
