@@ -6,6 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import theme from "../../../../theme";
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
+import { downloadCurriculumVitae } from "./dowload-cv";
 
 const HeroSection = () => {
 
@@ -48,7 +49,7 @@ const HeroSection = () => {
                 <Typography color={"primary.contrastText"} variant="h2" textAlign={"center"} pb={3}>I'm a Software Developer</Typography>
                 <Grid container display={"flex"} justifyContent={"center"} spacing={3}>
                   <Grid item xs={12} md={4} display={"flex"} justifyContent={"center"}>
-                    <StyledButton>
+                    <StyledButton onClick={downloadCurriculumVitae}>
                       <DownloadIcon/>
                       <Typography>Download CV</Typography>
                     </StyledButton>
