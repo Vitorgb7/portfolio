@@ -9,10 +9,10 @@ import js from '../../../public/js.png'
 import ts from '../../../public/ts.png'
 import react from '../../../public/react.png'
 import nextjs from '../../../public/nextjs.jpeg'
-import cplus from '../../../public/c++.jpeg'
 import tailwind from '../../../public/tailwindcss.png'
 import github from '../../../public/github.png'
 import vscode from '../../../public/vscode.png'
+import Ruby from '../../../public/ruby-img.png'
 import FramerWrapper from "@/components/animation/FramerWrapper";
 const skillPage = () => {
 
@@ -21,7 +21,7 @@ const skillPage = () => {
         {alt:"css", img:css},
         {alt:"js", img:js},
         {alt:"ts", img:ts},
-        {alt:"cplus", img:cplus},
+        {alt:"Ruby", img:Ruby},
     ]
     const framework = [
         {alt:"react", img:react},
