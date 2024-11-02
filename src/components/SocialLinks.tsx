@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Linkedin, Instagram } from "lucide-react";
+import { Linkedin, Instagram, Facebook } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";
@@ -8,6 +8,7 @@ const SocialLinks = () => {
   const links = [
     { name: "Instagram", link: "https://www.instagram.com/vitor_gb04/", icon: <Instagram /> },
     { name: "Linkedin", link: "https://www.linkedin.com/in/vitor-gabriel-silva-lima", icon: <Linkedin /> },
+    { name: "Facebook", link: "https://www.facebook.com/vitorgabriel.bielgb/", icon: <Facebook /> },
   ];
   return (
     <>
