@@ -8,8 +8,8 @@ const page = () => {
     { hobby: "coding" },
     { hobby: "playing games" },
     { hobby: "Watching Anima" },
-    { hobby: "Tech Blog writing" },
-    { hobby: "creating Cool Projects" },
+    { hobby: "Watching Football" },
+    { hobby: "Creating cool projects" },
   ];
 
   return (
@@ -22,17 +22,12 @@ const page = () => {
       <div className="flex flex-col gap-3">
        
           <Heading>
-            Software Engineer And Web <br /> Developer, Based In Brasil.
+            Software Engineer And Web <br /> Developer In Brasil.
           </Heading>
    
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a Full Stack Web Developer from Recife, Pernambuco, Brasil. I love crafting cool web projects and also open-source
-            contribuitions. My biggest achievement lies in my mastery of
-            JavaScript and CSS, ensuring pixel-perfect designs that captivate
-            users. With a keen eye for detail and a commitment to delivery
-            speed, I excel at creating seamless and responsive interfaces that
-            leave a lasting impression.
+          I'm a dedicated software developer with experience in web and mobile technologies, committed to delivering solutions that directly impact people's lives. I've been contributing to the development of projects that address real-world problems connected to the SDGs (Sustainable Development Goals) and add value to the market.
           </p>
         </FramerWrapper>
       </div>
