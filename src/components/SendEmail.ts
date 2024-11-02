@@ -16,7 +16,7 @@ export const SendEmail = async (formdata: FormData) => {
   }
   await resend.emails.send({
     from: "Contact Form <onboarding@resend.dev>",
-    to: `mdtaqui.jhar@gmail.com`,
+    to: `vitorgabriel181004@gmail.com`,
     subject: `${name} From Contact Form.`,
     reply_to: `${SenderEmail}`,
     text: `sender email: ${SenderEmail} 
@@ -24,6 +24,4 @@ export const SendEmail = async (formdata: FormData) => {
   });
 
 return redirect('/')
- 
-  
 };

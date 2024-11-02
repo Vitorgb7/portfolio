@@ -8,78 +8,41 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "Devzone - A community chat app for devs",
+      title: "AvaliaEdu - Plataform for school managers",
       description:
-        `DevZone is the ultimate chat platform for developers
-to connect, collaborate, and code together. Join the conversation and level up your coding journey.`,
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+        `The Avalia-Edu was a platform for school managers of the Department of Education of São Lourenço da Mata, aimed at providing direct assistance in day-to-day activities and in semester evaluations.`,
+      tags: ["React.js", "React Router", "Css Module"],
+      link: "https://plataforma-pedagogica-main.vercel.app/",
     },
    
     {
-      title: "itZmyLink- One Page many Links",
+      title: "AI recognition - website for superhero fans.",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "Inside the application, fans can take tests with their photos to see which superhero category they belong to based on their traits. There is a discussion forum for fans, along with a brief explanation of each area of each superhero team.",
+      tags: ["React.js", "Javascript", "Css Module"],
+      link: "https://github.com/Vitorgb7/Reconhecimento-IA",
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "API with Clean Architecture",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+        "API developed following development and architectural standards such as Clean Architecture, SOLID principles, TDD, and design patterns, utilizing Node.js and Express, focusing on the user registration flow within the system.",
+      tags: ["Node.js", "Typescript", "MongoDB"],
+      link: "https://github.com/Vitorgb7/clean-node-api",
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "Senses - An app aimed at improving communication for children with autism.",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
-      link: "https://mixcn-ui.vercel.app",
+        "A React Native application designed to facilitate communication for children and young people with autism who struggle to communicate with others. The app aims to encourage, engage, and stimulate communication in a clean and highly interactive manner with the user, who in this case are the children.",
+      tags: ["React-Native", "Clerk", "Expo"],
+      link: "https://github.com/AgencyHorizon/AgencyHorizon/tree/main",
     },
     {
-      title: "Rupeespot- All deals Product in one place",
+      title: "E-commerce with Next.js",
       description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
-    
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
-    },
-    {
-      title: "FriendZ - A social media Platform",
-      description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
-    },
+        "An e-commerce application built with Next.js (App Router) featuring tests with Cypress. It is responsive and utilizes many Next.js techniques, including persistence, server-side rendering (SSR), the use client directive, and other exciting features of Next.js.",
+      tags: ["Nextjs", "App Router", "Cypress"],
+      link: "#",
+    }
   ];
 
   return (
@@ -93,11 +56,7 @@ to connect, collaborate, and code together. Join the conversation and level up y
         <Heading>My Projects</Heading>
         <FramerWrapper y={0} x={200}>
           <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-            I love to Build Cool Projects. Here, you&#x27;ll find a curated
-            collection of my creative endeavors and technical projects. Each
-            piece represents a journey of innovation, problem-solving, and
-            continuous learning. Feel free to explore this showcase of my
-            passion and expertise in action.
+          I am constantly contributing to projects that have a direct impact on consumers. By building projects related to the 17 SDG topics, with innovation and resilience, I can implement technology as a means to help in everyday life. Feel free to explore this showcase of my passion and expertise in action.
           </p>
         </FramerWrapper>
       </div>

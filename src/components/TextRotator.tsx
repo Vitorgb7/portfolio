@@ -16,7 +16,7 @@ function TextRotator() {
         >
           <li className="text-[#2f7df4]">Freelancer</li>
           <li className="text-[#2f7df4]">Self-directed</li>
-          <li className="text-[#2f7df4]">Gamer</li>
+          <li className="text-[#2f7df4]">Entrepreneur</li>
           <li className="text-[#2f7df4]">Creator</li>
           <li className="text-[#2f7df4]">Student</li>
           <li className="text-[#2f7df4]">Contributer</li>

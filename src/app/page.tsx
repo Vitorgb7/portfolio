@@ -6,7 +6,7 @@ import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
 export const siteConfig = {
-  name: "Vitor Gabriel S.",
+  name: "Vitor Gabriel Portfólio",
   description: "I am a Software Developer",
 }
 export default function Home() {

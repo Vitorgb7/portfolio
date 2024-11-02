@@ -16,7 +16,6 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -62,22 +61,13 @@ export const metadata: Metadata = {
   ],
   creator: "Vitor",
 
-  openGraph: {
-    type: "website",
-    locale: "pt-br",
-    url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
-    siteName: siteConfig.name,
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
-  },
+  // openGraph: {
+  //   type: "website",
+  //   locale: "pt-br",
+  //   title: siteConfig.name,
+  //   description: siteConfig.description,
+  //   siteName: siteConfig.name,
+  // },
   icons: {
     icon: "/favicon.ico",
   },
