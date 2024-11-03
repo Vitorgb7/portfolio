@@ -5,10 +5,10 @@ import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
   const items = [
-    { hobby: "coding" },
-    { hobby: "playing games" },
-    { hobby: "Watching Anima" },
-    { hobby: "Watching Football" },
+    { hobby: "Coding" },
+    { hobby: "Playing games" },
+    { hobby: "Watching animes" },
+    { hobby: "Watching football" },
     { hobby: "Creating cool projects" },
   ];
 
@@ -22,7 +22,7 @@ const page = () => {
       <div className="flex flex-col gap-3">
        
           <Heading>
-            Software Engineer And Web <br /> Developer In Brasil.
+            Software Engineer And Web <br /> Developer.
           </Heading>
    
         <FramerWrapper y={0} x={100} >
