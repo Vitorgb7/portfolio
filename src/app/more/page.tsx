@@ -16,42 +16,23 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 const morePage = () => {
   const morelink = [
     {
-      title: "Dev.to",
+      title: "Horizon",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/random_ti",
+        "My own initiative in technology, aimed at being a software factory and a sustainable software factory, seeking to use technology as a means to achieve significant impacts across all topics of sustainable development.",
+      link: "https://agencyhorizon.com.br/",
     },
     {
       title: "Hashnode",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Hashnode",
-      link: "https://mdtaquiimam.hashnode.dev/",
+        "I write blogs on web development, trending tech stacks or javascript, and development sustainable in guide or tips in Hashnode",
+      link: "https://hashnode.com/@vitor718",
     },
     {
       title: "Medium",
       description:
         "I write blogs on web development, trending tech stacks or javascript guide or tips in Medium",
-      link: "https://medium.com/@mdtaqui.jhar",
-    },
-
-    {
-      title: "Daily.Dev",
-      description:
-        "I am also the member of Daily Dev squads and i also upload post on some squads.",
-      link: "https://app.daily.dev/taqui_786",
-    },
-    {
-      title: "Gumroad",
-      description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc..",
-      link: "https://mdtaquijhar.gumroad.com/",
-    },
-    {
-      title: "Buy Me a coffee",
-      description:
-        "Your support goes a long way in helping me maintain the quality of content, explore new topics, and dedicate more time to creating valuable projects.",
-      link: "https://www.buymeacoffee.com/taquidevloper",
-    },
+      link: "https://medium.com/@vitorgabriel181004",
+    }
   ];
 
   return (
