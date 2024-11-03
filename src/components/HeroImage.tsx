@@ -1,4 +1,3 @@
-import logo from "../../public/portfolioLogo.png";
 import logo1 from "../../public/avatar-portifolio.png"
 import Image from "next/image"
 

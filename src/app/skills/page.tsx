@@ -3,33 +3,34 @@ import SkillsFooter from "@/components/SkillsFotter";
 import { Badge } from "@/components/ui/badge";
 import { Lightbulb } from "lucide-react";
 import html from '../../../public/html.png'
-import css from '../../../public/css.png'
-import scss from '../../../public/scss.png'
 import js from '../../../public/js.png'
 import ts from '../../../public/ts.png'
 import react from '../../../public/react.png'
 import nextjs from '../../../public/nextjs.jpeg'
 import tailwind from '../../../public/tailwindcss.png'
 import github from '../../../public/github.png'
-import vscode from '../../../public/vscode.png'
 import Ruby from '../../../public/ruby-img.png'
+import python from '../../../public/python-png.png'
+import git from '../../../public/git-img.png'
+import dockerImg from '../../../public/docker-png.png'
+import nest from '../../../public/nest-logo.png'
 import FramerWrapper from "@/components/animation/FramerWrapper";
 const skillPage = () => {
 
     const language = [
-        {alt:"html", img:html},
-        {alt:"css", img:css},
-        {alt:"js", img:js},
         {alt:"ts", img:ts},
+        {alt:"js", img:js},
+        {alt:"python", img:python},
         {alt:"Ruby", img:Ruby},
+        {alt:"docker", img:dockerImg},
     ]
     const framework = [
         {alt:"react", img:react},
         {alt:"nextjs", img:nextjs},
-        {alt:"scss", img:scss},
         {alt:"tailwind", img:tailwind},
+        {alt:"nest", img:nest},
+        {alt:"git", img:git},
         {alt:"github", img:github},
-        {alt:"vscode", img:vscode},
     ]
        
 
@@ -53,7 +54,7 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.30} className="block">
         <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
-           Programming Languages
+          Languages and Tools
         </h1>
         <div className="w-full h-fit flex-row flex justify-between items-center">
         <SkillsFooter items={language} />
