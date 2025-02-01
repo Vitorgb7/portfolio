@@ -27,7 +27,7 @@ const page = () => {
    
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-          I'm a dedicated software developer with experience in web and mobile technologies, committed to delivering solutions that directly impact people's lives. I've been contributing to the development of projects that address real-world problems connected to the SDGs (Sustainable Development Goals) and add value to the market.
+          I'm a dedicated software developer and AI/ML engineer with experience in cloud computing using AWS and AI implementation projects. I specialize in web and mobile technologies, committed to delivering solutions that directly impact people's lives. I've been contributing to the development of projects that address real-world problems connected to the SDGs (Sustainable Development Goals) and add value to the market.
           </p>
         </FramerWrapper>
       </div>
