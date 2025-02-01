@@ -25,7 +25,7 @@ const morePage = () => {
       title: "Hashnode",
       description:
         "I write blogs on web development, trending tech stacks or javascript, and development sustainable in guide or tips in Hashnode",
-      link: "https://hashnode.com/@vitor718",
+      link: "https://horizontech.hashnode.dev/",
     },
     {
       title: "Medium",
