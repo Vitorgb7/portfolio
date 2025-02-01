@@ -34,7 +34,7 @@ const projectsPage = () => {
       description:
         "A React Native application designed to facilitate communication for children and young people with autism who struggle to communicate with others. The app aims to encourage, engage, and stimulate communication in a clean and highly interactive manner with the user, who in this case are the children.",
       tags: ["React-Native", "Clerk", "Expo"],
-      link: "https://github.com/AgencyHorizon/AgencyHorizon/tree/main",
+      link: "https://agencyhorizon.com.br/senses",
     },
     {
       title: "E-commerce with Next.js",
