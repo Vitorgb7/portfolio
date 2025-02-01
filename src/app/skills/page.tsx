@@ -2,35 +2,33 @@ import Heading from "@/components/Heading";
 import SkillsFooter from "@/components/SkillsFotter";
 import { Badge } from "@/components/ui/badge";
 import { Lightbulb } from "lucide-react";
-import html from '../../../public/html.png'
-import js from '../../../public/js.png'
 import ts from '../../../public/ts.png'
-import react from '../../../public/react.png'
 import nextjs from '../../../public/nextjs.jpeg'
-import tailwind from '../../../public/tailwindcss.png'
-import github from '../../../public/github.png'
 import Ruby from '../../../public/ruby-img.png'
 import python from '../../../public/python-png.png'
 import git from '../../../public/git-img.png'
 import dockerImg from '../../../public/docker-png.png'
 import nest from '../../../public/nest-logo.png'
+import aws from '../../../public/aws.jpg'
+import sklearn from '../../../public/sklearn-logo.png'
+import tensorflow from '../../../public/tensorflow-logo.jpg'
 import FramerWrapper from "@/components/animation/FramerWrapper";
 const skillPage = () => {
 
     const language = [
         {alt:"ts", img:ts},
-        {alt:"js", img:js},
+        // {alt:"js", img:js},
         {alt:"python", img:python},
         {alt:"Ruby", img:Ruby},
         {alt:"docker", img:dockerImg},
+        {alt:"aws", img:aws},
     ]
     const framework = [
-        {alt:"react", img:react},
         {alt:"nextjs", img:nextjs},
-        {alt:"tailwind", img:tailwind},
         {alt:"nest", img:nest},
+        {alt:"sklearn", img:sklearn},
+        {alt: 'tensorflow', img:tensorflow},
         {alt:"git", img:git},
-        {alt:"github", img:github},
     ]
        
 
@@ -46,10 +44,7 @@ const skillPage = () => {
         <FramerWrapper y={0} x={200} >
 
         <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-          Currently i am a fresher and i have a solid understand of HTML5, CSS3, JS, TS and React, including
-          responsive design principles. I specialize in building web
-          applications and sites using Javascript, Typescript, React, Ruby, Nextjs &
-          Node.
+        Currently, I am a fresher with a solid understanding of JavaScript, TypeScript, React, Ruby, Next.js, and Node.js. I specialize in building web applications and have experience in AI and ML engineering, working with Python, TensorFlow, Scikit-learn, PyTorch, and LLMs. Additionally, I have experience with AWS, focusing on cloud computing services (EC2, Lambda, ECR) and AI services (SageMaker, Textract, Comprehend, Bedrock).
         </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.30} className="block">
